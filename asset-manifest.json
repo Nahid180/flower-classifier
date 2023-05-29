@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flower-classifier/static/css/main.e6c13ad2.css",
+    "main.js": "/flower-classifier/static/js/main.c3160480.js",
+    "index.html": "/flower-classifier/index.html",
+    "main.e6c13ad2.css.map": "/flower-classifier/static/css/main.e6c13ad2.css.map",
+    "main.c3160480.js.map": "/flower-classifier/static/js/main.c3160480.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c3160480.js"
+  ]
+}
