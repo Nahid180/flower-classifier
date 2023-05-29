@@ -1,6 +1,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import * as tf from "@tensorflow/tfjs";
+import './App.css';
 
 function App(){
     const [isModelLoading, setisModelLoading] = useState();
@@ -50,14 +51,18 @@ function App(){
         
     }
     return(
-        <div>
-            {result && <h1>These are {result}</h1>}
+        <div className="container">
+            {result? <h1 className="result">These are {result}</h1> : <h1 className="result">Results will appear here</h1>} <br />
             <div className="inputHolder">
-                <input type="file" accept="image/*" capture = "camera" onChange={uploadImage}/>
-            </div>
+                <input type="file" className="inputfile" name="file" id="file" accept="image/*" capture = "camera" onChange={uploadImage}/>
+                <label for="file"><i class="fa fa-upload"></i>  <b>Upload</b></label>
+            </div><br />
             <div>
-                {imageURL && <img src={imageURL} sizes="" crossOrigin="anonymous" alt="loaded-pic" ref={imageref} />}
-                {imageURL && <button onClick={indentify}>Predict</button>}
+                {imageURL && <img className="preview" src={imageURL} sizes="" crossOrigin="anonymous" alt="loaded-pic" ref={imageref} />}
+                <br />
+                <div className="button-container">
+                    {imageURL && <button className="predict" onClick={indentify}>Predict</button>}
+                </div>
             </div>
         </div>
     )
