@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/flower-classifier/static/css/main.e6c13ad2.css",
-    "main.js": "/flower-classifier/static/js/main.c3160480.js",
+    "main.css": "/flower-classifier/static/css/main.19ef0960.css",
+    "main.js": "/flower-classifier/static/js/main.77a4f29c.js",
     "index.html": "/flower-classifier/index.html",
-    "main.e6c13ad2.css.map": "/flower-classifier/static/css/main.e6c13ad2.css.map",
-    "main.c3160480.js.map": "/flower-classifier/static/js/main.c3160480.js.map"
+    "main.19ef0960.css.map": "/flower-classifier/static/css/main.19ef0960.css.map",
+    "main.77a4f29c.js.map": "/flower-classifier/static/js/main.77a4f29c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.c3160480.js"
+    "static/css/main.19ef0960.css",
+    "static/js/main.77a4f29c.js"
   ]
 }
