@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flower-classifier/static/css/main.19ef0960.css",
-    "main.js": "/flower-classifier/static/js/main.77a4f29c.js",
+    "main.js": "/flower-classifier/static/js/main.a082158b.js",
     "index.html": "/flower-classifier/index.html",
     "main.19ef0960.css.map": "/flower-classifier/static/css/main.19ef0960.css.map",
-    "main.77a4f29c.js.map": "/flower-classifier/static/js/main.77a4f29c.js.map"
+    "main.a082158b.js.map": "/flower-classifier/static/js/main.a082158b.js.map"
   },
   "entrypoints": [
     "static/css/main.19ef0960.css",
-    "static/js/main.77a4f29c.js"
+    "static/js/main.a082158b.js"
   ]
 }
